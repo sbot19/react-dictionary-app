@@ -3,5 +3,9 @@
   font-weight: bolder;
   text-align: center;
   line-height: 2;
+}
 
+.App-footer{
+  margin: 30px 0;
+  text-align: center;
 }
