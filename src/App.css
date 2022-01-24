@@ -1,11 +1,31 @@
-.dictionary-title{
+:root {
+  --primary-color: rgb(247, 241, 212);
+}
+
+html,
+body {
+  background-image: url(/public/book-library-with-open-textbook.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dictionary-title {
   font-size: 48px;
   font-weight: bolder;
   text-align: center;
   line-height: 2;
+  color: var(--primary-color);
 }
 
-.App-footer{
+.App-footer {
   margin: 30px 0;
   text-align: center;
+  color: var(--primary-color);
+}
+
+.background-source {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
 }

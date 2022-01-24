@@ -9,7 +9,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Scarleth Bernabe</footer>
+        <footer className="App-footer">
+          Coded by Scarleth Bernabe
+          <br />
+          <a
+            className="background-source"
+            href="https://www.freepik.com/photos/background"
+          >
+            Background photo by jcomp
+          </a>
+        </footer>
       </div>
     </div>
   );
