@@ -11,7 +11,13 @@ function App() {
         </main>
         <footer className="App-footer">
           Coded by Scarleth Bernabe and{" "}
-          <a className="github-link">open-sourced </a>on GitHub
+          <a
+            href="https://github.com/sbot19/react-dictionary-app"
+            className="github-link"
+          >
+            open-sourced{" "}
+          </a>
+          on GitHub
           <br />
           <a
             className="background-source"
