@@ -5,7 +5,7 @@ export default function Synonyms(props) {
   if (props.synonyms) {
     // If a noun/verb/adjective/etc has synonym(s) then it will be displayed
     return (
-      <div className="synonyms">
+      <div className="Synonyms">
         {props.synonyms.map(function (synonym, index) {
           // map function is used because the results are listed as index values
           return <span key={index} className="synonym">{synonym}</span>;

@@ -1,0 +1,8 @@
+.Results .word {
+  font-size: 45px;
+  color: rgb(39, 127, 185);
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+}

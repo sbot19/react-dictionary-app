@@ -12,10 +12,12 @@ body {
 
 .dictionary-title {
   font-size: 48px;
+  font-family: "Shrikhand", cursive;
   font-weight: bolder;
   text-align: center;
   line-height: 2;
   color: var(--primary-color);
+  margin: 30px auto 20px;
 }
 
 .App-footer {
@@ -24,8 +26,17 @@ body {
   color: var(--primary-color);
 }
 
+.github-link {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  transition: all 150ms ease-in-out;
+}
+.github-link:hover {
+  color: rgb(206, 153, 255);
+}
+
 .background-source {
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
   color: white;
 }

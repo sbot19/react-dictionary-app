@@ -1,0 +1,17 @@
+.Meaning h3 {
+  color: rgb(247, 241, 212);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.Meaning .definition-text {
+  color: white;
+}
+
+.Meaning .example-text {
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 5px;
+}

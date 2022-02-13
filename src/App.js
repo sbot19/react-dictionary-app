@@ -7,10 +7,11 @@ function App() {
       <div className="container">
         <h1 className="dictionary-title">Dictionary</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="hello" />
         </main>
         <footer className="App-footer">
-          Coded by Scarleth Bernabe
+          Coded by Scarleth Bernabe and{" "}
+          <a className="github-link">open-sourced </a>on GitHub
           <br />
           <a
             className="background-source"

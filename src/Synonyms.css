@@ -1,12 +1,8 @@
-.synonyms {
-  margin-top: 10px;
-}
-
 .synonym {
   display: inline-block;
   margin: 0 8px 8px;
   padding: 3px 7px;
-  background: rgb(31, 102, 150);
+  background: rgb(39, 127, 185);
   color: rgb(241, 215, 168);
   border-radius: 5px;
 }
