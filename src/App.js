@@ -14,6 +14,8 @@ function App() {
           <a
             href="https://github.com/sbot19/react-dictionary-app"
             className="github-link"
+            target="_blank"
+            rel="noreferrer"
           >
             open-sourced{" "}
           </a>
