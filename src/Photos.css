@@ -2,3 +2,9 @@
   border-radius: 5px;
   margin-bottom: 25px;
 }
+
+@media (max-width: 576px) {
+  .Photos {
+    display: none;
+  }
+}
